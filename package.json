@@ -1,0 +1,33 @@
+{
+  "name": "dashboard-api",
+  "version": "1.0.0",
+  "description": "A MEAN stack based dashboard app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srini-3s3p3d/dashboard-api"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srini-3s3p3d/dashboard-api/issues"
+  },
+  "homepage": "https://github.com/srini-3s3p3d/dashboard-api#readme"
+}
